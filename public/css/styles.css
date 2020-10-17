@@ -43,13 +43,15 @@ button {
   border: none;
 }
 
+
+
 .navbar {
   font-family: "Nunito", sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.2em;
-  padding: 0.5rem 10rem;
+  /* padding: 0.5rem 10rem; */
   background-color: rgb(235, 236, 255);
-  height:65px;
+  height:80px;
 }
 
 #navbar.fixed-top {
@@ -57,32 +59,41 @@ button {
   justify-content: inherit;
 }
 
-.navbar-brand {
-  font-size: 1.5rem;
+.navbar-brand a {
+  font-size: 15px;
+  font-weight: 1200;
 }
 
 .navbar-brand img {
-  width: 40px;
-  height: 40px;
-  margin: 0 0 10px 10px;
-  margin-bottom: 10px;
+  width: 80px;
+  height: 80px;
+  /* margin: 0 0 10px 10px;
+  margin-bottom: 10px;  */
 }
 
 .navbar-brand img#myImg{
-  margin-top:1.5px;
-  margin-right:10px;
+  /* margin-top:1.5px;
+  margin-right:10px; */
 }
 
+.navbar-nav  {
+  padding-left: 0px;
+  margin: 0rem;
+}
 
 #navbarNav li a {
+  letter-spacing: 0.1em;
+  word-spacing: 0em;
   text-decoration: none;
   position: relative;
   display: block;
   overflow: hidden;
   font-weight: 500;
-  font-size: 1.1em;
+  font-size: 0.8em;
   margin: 5px;
+  padding-left: 0rem;
   padding: 5px;
+  color: #000000;
   transition: color 0.5s;
 }
 
@@ -90,7 +101,7 @@ button {
   content: '';
   width: 70px;
   position: absolute;
-  border-bottom: 8px solid #7c32d1;
+  border-bottom: 4px solid #7c32d1;
   bottom: 0;
   right: 350px;
   transition: 0.5s all;
