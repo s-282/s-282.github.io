@@ -95,7 +95,7 @@ button {
   content: '';
   width: 70px;
   position: absolute;
-  border-bottom: 4px solid #7c32d1;
+  border-bottom: 2px solid #7c32d1;
   bottom: 0;
   right: 350px;
   transition: 0.5s all;
